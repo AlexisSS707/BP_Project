@@ -1,0 +1,118 @@
+/*make yellow more soft and not hurt eyes.
+soft green: rgb(192,216,144)
+font: */
+
+/*make background soft green
+ lime green rgb(50,205,50)*/
+header  {
+   background-color:rgb(50,205,50);
+	height: 150px;
+	width: auto;
+}
+
+body {
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	background-color: white;
+	/*background-image: url(media/world.jpg);*/
+	background-size: 100% auto;
+	color:rgb(0,0,128);
+}
+
+a  {
+  color:rgb(0,0,128); 
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;}
+
+#stuff{
+    text-align: justify;
+    font-size: 20px;
+    display: block;
+    margin: 25px 150px 25px 450px;
+}
+
+nav {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 25px;
+	margin-right: 20px;
+}
+
+nav ul{
+ list-style-type: none;
+ float: left;
+}
+
+
+nav ul li{
+	font-size: 22px;
+    text-align: left;
+    padding: 15px;
+    width: 200px;
+    background-color: yellow;
+}
+
+nav ul li a {
+   text-decoration:none;
+    cursor: pointer; 
+    padding: 22px;
+    color:green;
+}
+
+/*fixed the logo*/
+aside img   {
+    float: left;
+    width:auto;
+    text-align: center;
+    margin-left: 50px;
+}
+
+/* fixes saying beside logo*/
+b {
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+td {
+   width: 500px;
+   height: 10px;
+}
+
+tr {
+   width: 500px;
+}
+
+footer {
+    background-color:rgb(50,205,50); /*lime green*/
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    bottom: 0;
+    padding-top: 25px;
+	line-height: 1.5;
+}  
+
+iframe   {
+   margin: 50px;
+}
+
+#footersays {
+    margin-left: 100px;
+}
+
+form	{
+	border: 1px solid green;
+	padding: 50px;
+	margin: 25px 150px 25px 450px;
+	font-size: 20px;
+	display: block;
+	width: 450px;
+}
+
+input	{
+	border: 2px solid green;
+}
