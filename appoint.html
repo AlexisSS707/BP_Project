@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Appointments</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    </head>
+    <body>
+        <header>
+       <aside><img src="media/logo.png" alt="logo is missing" height="150" width="100"></aside>
+	    <br><br><br><br><br><br>
+          <b> Bayview</b>
+        </header>
+            <nav>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="specials.html"> Specials</a></li>
+            <li><a href="social.html"> Social Media</a></li>
+            <li><a href="appoint.html"> Appointment</a></li>
+            <li><a href="links.html">Links</a></li>
+        </ul>
+       </nav>
+       <form action="mailto:asilver4744@gmail.com" method="post" enctype="text/plain">
+		<i> This is where you can send your appointments.</i><br><br>
+          <input type="text" placeholder="Name" width="100" height="20" size="45"><br><br>
+          <input type="text" placeholder="Email" width="100" height="20" size="45"><br><br>
+		  Date: <input type="date" name="today"><br><br>
+          Automobile Repair:<input type="radio"><br>
+          State Inspections:<input type="radio"><br>
+          Other:<input type="radio"><br><br>
+		  Comment:<br><textarea name="comments" cols="45" rows="5" value="Comment"></textarea>
+		  <br><br>
+          <input type="submit" value="Submit"><br><br>
+		  <input type="reset" value="Reset"/><br><br>
+		  <i>I will get back to you as soon as possible</i><br>
+       </form>
+	   <script>
+	      function check() {
+         document.getElementById("red").checked = true;
+         }
+
+         function uncheck() {
+         document.getElementById("red").checked = false;
+         }
+	   </script>
+     <footer>
+      <table id=footersays>
+         <tr>
+         <td><strong>Address: </strong></td>
+         <td> <strong>Hours:  </strong></td>
+         <td> </td>
+      </tr>
+      <tr>
+         <td>8595 Chesapeake Blvd</td>
+         <td>Monday to Saturday: 6am to 11pm</td>
+      </tr>
+      <tr>
+         <td>Norfolk, Va 23503</td>
+         <td>Sunday: 7am to 10pm</td>
+      </tr>
+      <tr>
+         <td><strong>Number:</strong></td>
+      </tr>
+      <tr><td>(757) 583-1355</td></tr>
+      <tr><td><strong>FB:</strong> <a href="https://www.facebook.com/BayviewBP/"> @BayviewBP</a></td></tr>
+      </table>
+      </footer>
+    </body>
+</html>
